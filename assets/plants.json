@@ -1,0 +1,177 @@
+[
+  {
+    "nameAr": "الأراك",
+    "nameEn": "Salvadora persica",
+    "category": "trees",
+    "region": "Makkah",
+    "description": "شجرة تتحمل الجفاف والملوحة وتستخدم في صناعة السواك.",
+    "image": "https://i.ibb.co/HfVW0JRs/salvadora.webp"
+  },
+  {
+    "nameAr": "المرخ",
+    "nameEn": "Leptadenia pyrotechnica",
+    "category": "trees",
+    "region": "Makkah",
+    "description": "شجيرة صحراوية كانت تستخدم قديماً لإشعال النار.",
+    "image": "https://i.ibb.co/J0GB0T1/Leptadenia.jpg"
+  },
+  {
+    "nameAr": "العشر",
+    "nameEn": "Calotropis procera",
+    "category": "medical",
+    "region": "Makkah",
+    "description": "نبات صحراوي له أزهار بنفسجية ويستخدم في الطب الشعبي.",
+    "image": "https://i.ibb.co/7tDtTk6D/Calotropis.jpg"
+  },
+  {
+    "nameAr": "الطلح الحجازي",
+    "nameEn": "Acacia tortilis",
+    "category": "trees",
+    "region": "Makkah",
+    "description": "شجرة صحراوية تتحمل الجفاف ومصدر مهم للعسل والرعي.",
+    "image": "https://i.ibb.co/rG2H08d0/Acacia.jpg"
+  },
+  {
+    "nameAr": "العرعر",
+    "nameEn": "Juniperus procera",
+    "category": "trees",
+    "region": "Asir",
+    "description": "شجرة جبلية طويلة تنمو في المرتفعات.",
+    "image": "https://i.ibb.co/7Jr0nwqr/Juniperus.jpg"
+  },
+  {
+    "nameAr": "السدر",
+    "nameEn": "Ziziphus spina-christi",
+    "category": "trees",
+    "region": "Asir",
+    "description": "شجرة تنتج النبق ويستخرج منها عسل السدر.",
+    "image": "https://i.ibb.co/KpdYtJg2/Ziziphus.jpg"
+  },
+  {
+    "nameAr": "الشيح",
+    "nameEn": "Artemisia judaica",
+    "category": "medical",
+    "region": "Asir",
+    "description": "نبات عطري يستخدم في العلاج الشعبي.",
+    "image": "https://i.ibb.co/XgKnDzm/Artemisia.jpg"
+  },
+  {
+    "nameAr": "الضرم",
+    "nameEn": "Lavandula spp",
+    "category": "aromatic",
+    "region": "Asir",
+    "description": "نبات عطري ذو أزهار بنفسجية ينمو في الجبال.",
+    "image": "https://i.ibb.co/DgGzFV8z/Lavandula.webp"
+  },
+  {
+    "nameAr": "القيصوم",
+    "nameEn": "Achillea fragrantissima",
+    "category": "aromatic",
+    "region": "Tabuk",
+    "description": "نبات عطري صغير ذو أزهار صفراء.",
+    "image": "https://i.ibb.co/RTf5VWPm/Achillea.jpg"
+  },
+  {
+    "nameAr": "الرمث",
+    "nameEn": "Haloxylon salicornicum",
+    "category": "trees",
+    "region": "Northern",
+    "description": "شجيرة تتحمل الجفاف والملوحة.",
+    "image": "https://i.ibb.co/twr5mf77/Haloxylon.jpg"
+  },
+  {
+    "nameAr": "النفل البري",
+    "nameEn": "Trifolium spp",
+    "category": "medical",
+    "region": "Jouf",
+    "description": "نبات رعوي يظهر بعد الأمطار.",
+    "image": "https://i.ibb.co/FbxBw2xh/Trifolium.jpg"
+  },
+  {
+    "nameAr": "العرفج",
+    "nameEn": "Rhanterium epapposum",
+    "category": "trees",
+    "region": "Northern",
+    "description": "شجيرة صحراوية ذات أزهار صفراء صغيرة.",
+    "image": "https://i.ibb.co/FkD8DzMk/Rhanterium.jpg"
+  },
+  {
+    "nameAr": "الغضا",
+    "nameEn": "Haloxylon persicum",
+    "category": "trees",
+    "region": "Qassim",
+    "description": "شجرة تثبت الرمال وتمنع زحف الكثبان.",
+    "image": "https://i.ibb.co/pvNprPRB/Haloxylon-persicum.jpg"
+  },
+  {
+    "nameAr": "الرمث النجدي",
+    "nameEn": "Haloxylon salicornicum",
+    "category": "trees",
+    "region": "Riyadh",
+    "description": "نبات رعوي مهم للإبل.",
+    "image": "https://i.ibb.co/Ng2FsyFP/Haloxylon-salicornicum.jpg"
+  },
+  {
+    "nameAr": "الحمض",
+    "nameEn": "Atriplex spp",
+    "category": "trees",
+    "region": "Riyadh",
+    "description": "نبات ملحي ترعاه الحيوانات.",
+    "image": "https://i.ibb.co/v6StQQ8s/Atriplex.jpg"
+  },
+  {
+    "nameAr": "الحرمل",
+    "nameEn": "Peganum harmala",
+    "category": "medical",
+    "region": "Najran",
+    "description": "نبات بري يستخدم في الطب الشعبي.",
+    "image": "https://i.ibb.co/CTjw6dw/Peganum.webp"
+  },
+  {
+    "nameAr": "القرم",
+    "nameEn": "Avicennia marina",
+    "category": "trees",
+    "region": "Eastern",
+    "description": "شجرة مانجروف تحمي السواحل.",
+    "image": "https://i.ibb.co/Xc29hjJ/Avicennia.jpg"
+  },
+  {
+    "nameAr": "الأثل",
+    "nameEn": "Tamarix aphylla",
+    "category": "trees",
+    "region": "Eastern",
+    "description": "شجرة تتحمل الملوحة والحرارة.",
+    "image": "https://i.ibb.co/4g2VSG2m/Tamarix.jpg"
+  },
+  {
+    "nameAr": "الغردق",
+    "nameEn": "Nitraria retusa",
+    "category": "trees",
+    "region": "Eastern",
+    "description": "نبات يتحمل الملوحة العالية.",
+    "image": "https://i.ibb.co/WW337XYy/Nitraria.jpg"
+  },
+  {
+    "nameAr": "الساليكورنيا",
+    "nameEn": "Salicornia europaea",
+    "category": "aromatic",
+    "region": "Eastern",
+    "description": "نبات ملحي يعيش في السبخات الساحلية.",
+    "image": "https://i.ibb.co/p6wT3fTd/Salicornia.jpg"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

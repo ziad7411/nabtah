@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "المنطقة الأولى",
+        "has_plants": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [30.8, 30.9],
+            [31.0, 30.9],
+            [31.0, 31.1],
+            [30.8, 31.1],
+            [30.8, 30.9]
+          ]
+        ]
+      }
+    }
+  ]
+}
