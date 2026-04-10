@@ -68,7 +68,6 @@ class AuthCubit extends Cubit<AuthState> {
   }
 
   /// ================= SEND RESET PASSWORD LINK =================
-  /// ترجع رابط Dynamic Link جاهز للاستخدام
   Future<void> sendResetPasswordLink(String email) async {
     try {
       emit(AuthLoading());

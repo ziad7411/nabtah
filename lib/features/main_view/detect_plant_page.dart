@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nabtah/core/theme/app_colors.dart';
@@ -20,6 +21,8 @@ class _DetectPlantPageState extends State<DetectPlantPage> {
   String? _plantName;
   double? _confidence;
   bool _isLoading = false;
+  String? _plantDescription;
+  String? _plantRegion;
 
   final ImagePicker _picker = ImagePicker();
 
@@ -59,6 +62,7 @@ class _DetectPlantPageState extends State<DetectPlantPage> {
           setState(() {
             _plantName = bestMatch['species']['scientificNameWithoutAuthor'];
             _confidence = bestMatch['score'];
+            _fetchPlantDetails(_plantName!);
             _isLoading = false;
           });
         } else {
@@ -75,6 +79,25 @@ class _DetectPlantPageState extends State<DetectPlantPage> {
     } catch (e) {
       setState(() => _isLoading = false);
       print("Exception: $e");
+    }
+  }
+
+  Future<void> _fetchPlantDetails(String scientificName) async {
+    final snapshot = await FirebaseFirestore.instance
+        .collection('plants')
+        .where('nameEn', isGreaterThanOrEqualTo: scientificName)
+        .get();
+
+    if (snapshot.docs.isNotEmpty) {
+      final data = snapshot.docs.first.data();
+
+      setState(() {
+        _plantName = data['nameAr']; // نعرض العربي
+        _confidence = _confidence; // زي ما هي
+        // نضيف دول 👇
+        _plantDescription = data['description'];
+        _plantRegion = data['region'];
+      });
     }
   }
 
@@ -303,6 +326,9 @@ class _DetectPlantPageState extends State<DetectPlantPage> {
                       "Confidence: ${(_confidence! * 100).toStringAsFixed(1)}%",
                       style: const TextStyle(color: Colors.grey),
                     ),
+                    if (_plantDescription != null) Text(_plantDescription!),
+
+                    if (_plantRegion != null) Text("📍 $_plantRegion"),
                   ],
                 ),
             ],
