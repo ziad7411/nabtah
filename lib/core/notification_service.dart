@@ -9,7 +9,7 @@ class NotificationService {
 
   static Future init() async {
 
-    const android = AndroidInitializationSettings('@drawable/ic_notification');
+    const android = AndroidInitializationSettings('@mipmap/ic_launcher');
 
     const settings = InitializationSettings(
       android: android,
@@ -52,7 +52,7 @@ class NotificationService {
           'Plant Care Reminder',
           importance: Importance.max,
           priority: Priority.high,
-          icon: '@drawable/ic_notification',
+          icon: '@mipmap/ic_launcher',
         ),
       ),
     );
